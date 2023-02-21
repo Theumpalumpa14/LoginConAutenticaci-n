@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Chapi\\source\\repos\\LoginConAutenticación\\LoginConAutenticación.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Chapi\\source\\repos\\CapaDatos\\CapaDatos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chapi\\source\\repos\\CapaDatos\\CapaDatos.csproj",
+        "projectName": "CapaDatos",
+        "projectPath": "C:\\Users\\Chapi\\source\\repos\\CapaDatos\\CapaDatos.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\Chapi\\source\\repos\\CapaNegocio\\CapaNegocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chapi\\source\\repos\\CapaNegocio\\CapaNegocio.csproj",
+        "projectName": "CapaNegocio",
+        "projectPath": "C:\\Users\\Chapi\\source\\repos\\CapaNegocio\\CapaNegocio.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\Chapi\\source\\repos\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\Chapi\\source\\repos\\CapaDatos\\CapaDatos.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\Chapi\\source\\repos\\CapaPresentacion\\CapaPresentacion.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chapi\\source\\repos\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectName": "CapaPresentacion",
+        "projectPath": "C:\\Users\\Chapi\\source\\repos\\CapaPresentacion\\CapaPresentacion.csproj",
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\Chapi\\source\\repos\\CapaNegocio\\CapaNegocio.csproj": {
+                "projectPath": "C:\\Users\\Chapi\\source\\repos\\CapaNegocio\\CapaNegocio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      }
+    },
+    "C:\\Users\\Chapi\\source\\repos\\LoginConAutenticación\\LoginConAutenticación.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Chapi\\source\\repos\\LoginConAutenticación\\LoginConAutenticación.csproj",
+        "projectName": "LoginConAutenticación",
+        "projectPath": "C:\\Users\\Chapi\\source\\repos\\LoginConAutenticación\\LoginConAutenticación.csproj",
+        "packagesPath": "C:\\Users\\Chapi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chapi\\source\\repos\\LoginConAutenticación\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chapi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Chapi\\source\\repos\\CapaPresentacion\\CapaPresentacion.csproj": {
+                "projectPath": "C:\\Users\\Chapi\\source\\repos\\CapaPresentacion\\CapaPresentacion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
